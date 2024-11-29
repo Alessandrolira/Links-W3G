@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    margin: 50px;
+    height: calc(100vh - 100px)
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.lista-menu {
+    display: flex;
+    list-style-type: none;
+    background-color: #EAEEF3;
+    padding: 3px;
+    border-radius: 150px;
+}
+
+.logo, .opcoes-esquerda {
+    width: 269px;
+}
+
+.opcoes-esquerda {
+    margin-right: 4em;
+}
+
+.lista-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 175px;
+    border-radius: 150px;
+    transition: .5s;
+}
+
+.lista-item:hover {
+    transform: scale(1.05);
+}
+
+.link {
+    text-decoration: none;
+    color: #1A3F7D;
+}
+
+.ativo {
+    background-color: #1A3F7D;
+    color: #fff;
+}
+
+.subtitulo {
+    margin-top: 87px;
+    font-size: 1.5em;
+    margin-bottom: 58px;
+}
+
+.conteudo {
+    display: flex;
+    flex-grow: 1;
+}
+
+.icone {
+    margin-right: 1em;
+}
+
+.botao-navegacao {
+    display: flex;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: #EAEEF3;
+    color: #1A3F7D;
+    border-radius: 150px;
+    width: 80%;
+    transition: .5s;
+}
+
+.botao-navegacao:hover {
+    transform: scale(1.05);
+}
+
+.conteudo-principal {
+    background-color: #EAEEF3;
+    flex-grow: 1; /* Garante que ocupe o restante do espaço */
+    padding: 20px; /* Espaço interno */
+    box-sizing: border-box; /* Garante que o padding não ultrapasse os limites */
+    border-radius: 35px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 30%;
+    border-radius: 35px;
+    background-color: #1A3F7D;
+    padding: 28px 20px;
+    color: #fff;
+    margin: 1em 0;
+}
+
+.cabecalho-card {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.icone-card {
+    margin-right: .5em;
+}
+
+.card-descritivo {
+    margin-top: 17px;
+    margin-bottom: 36px;
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+.botao {
+    background-color: #EAEEF3;
+    color: #1A3F7D;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 150px;
+    transition: .5s;
+}
+
+.botao:hover {
+    transform: scale(1.02);
+}
